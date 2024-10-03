@@ -2,10 +2,10 @@ package extrinsic
 
 import (
 	"bytes"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/polkadot-go/api/v4/scale"
+	"github.com/polkadot-go/api/v4/signature"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

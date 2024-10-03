@@ -19,10 +19,10 @@ package client
 import (
 	"context"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	gethrpc "github.com/centrifuge/go-substrate-rpc-client/v4/gethrpc"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/polkadot-go/api/v4/config"
+	gethrpc "github.com/polkadot-go/api/v4/gethrpc"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/codec"
 )
 
 //go:generate mockery --name Client

@@ -17,10 +17,10 @@
 package extrinsic
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic/extensions"
+	"github.com/polkadot-go/api/v4/signature"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/codec"
+	"github.com/polkadot-go/api/v4/types/extrinsic/extensions"
 	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"

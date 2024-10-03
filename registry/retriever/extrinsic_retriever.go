@@ -3,12 +3,12 @@ package retriever
 import (
 	"time"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/exec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/block"
+	"github.com/polkadot-go/api/v4/registry"
+	"github.com/polkadot-go/api/v4/registry/exec"
+	"github.com/polkadot-go/api/v4/rpc/chain"
+	"github.com/polkadot-go/api/v4/rpc/state"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/block"
 )
 
 //nolint:lll

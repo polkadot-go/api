@@ -18,14 +18,14 @@ package teste2e
 
 import (
 	"fmt"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
+	"github.com/polkadot-go/api/v4/types/extrinsic"
 	"testing"
 	"time"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/polkadot-go/api/v4/rpc/author"
+	"github.com/polkadot-go/api/v4/signature"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

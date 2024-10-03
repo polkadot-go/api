@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/polkadot-go/api/v4/scale"
 )
 
 type Outcome struct {

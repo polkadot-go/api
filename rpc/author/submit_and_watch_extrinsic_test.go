@@ -1,14 +1,14 @@
 package author_test
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
+	"github.com/polkadot-go/api/v4/types/extrinsic"
 	"testing"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	gsrpc "github.com/polkadot-go/api/v4"
+	"github.com/polkadot-go/api/v4/config"
+	"github.com/polkadot-go/api/v4/rpc/author"
+	"github.com/polkadot-go/api/v4/signature"
+	"github.com/polkadot-go/api/v4/types"
 	"github.com/stretchr/testify/assert"
 )
 

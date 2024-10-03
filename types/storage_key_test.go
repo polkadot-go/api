@@ -18,15 +18,15 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/polkadot-go/api/v4/scale"
 	"strings"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/hash"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
+	"github.com/polkadot-go/api/v4/hash"
+	. "github.com/polkadot-go/api/v4/types"
+	. "github.com/polkadot-go/api/v4/types/codec"
+	. "github.com/polkadot-go/api/v4/types/test_utils"
+	"github.com/polkadot-go/api/v4/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

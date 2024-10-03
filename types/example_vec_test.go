@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	. "github.com/polkadot-go/api/v4/types/codec"
 )
 
 func ExampleExampleVec_simple() {

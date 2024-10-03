@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
+	. "github.com/polkadot-go/api/v4/types"
+	. "github.com/polkadot-go/api/v4/types/test_utils"
 )
 
 func TestGenerateMMRProofResponse_Unmarshal(t *testing.T) {

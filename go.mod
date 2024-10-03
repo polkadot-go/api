@@ -1,4 +1,4 @@
-module github.com/centrifuge/go-substrate-rpc-client/v4
+module github.com/polkadot-go/api/v4
 
 go 1.22.0
 

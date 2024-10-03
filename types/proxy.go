@@ -1,6 +1,6 @@
 package types
 
-import "github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+import "github.com/polkadot-go/api/v4/scale"
 
 type ProxyDefinition struct {
 	Delegate  AccountID

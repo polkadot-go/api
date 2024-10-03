@@ -3,8 +3,8 @@
 package retriever
 
 import (
-	registry "github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	registry "github.com/polkadot-go/api/v4/registry"
+	types "github.com/polkadot-go/api/v4/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

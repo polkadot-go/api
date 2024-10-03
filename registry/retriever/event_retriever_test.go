@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/exec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/parser"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/state"
-	stateMocks "github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state/mocks"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/polkadot-go/api/v4/registry"
+	"github.com/polkadot-go/api/v4/registry/exec"
+	"github.com/polkadot-go/api/v4/registry/parser"
+	"github.com/polkadot-go/api/v4/registry/state"
+	stateMocks "github.com/polkadot-go/api/v4/rpc/state/mocks"
+	"github.com/polkadot-go/api/v4/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

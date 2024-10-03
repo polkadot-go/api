@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/polkadot-go/api/v4/scale"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/test"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/polkadot-go/api/v4/registry/test"
+	"github.com/polkadot-go/api/v4/types"
+	"github.com/polkadot-go/api/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 
